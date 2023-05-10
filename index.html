@@ -10,7 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav id="navbar-example2" class="navbar sticky-top bg-white">
+    <nav id="navbar-example2" class="navbar p-2 sticky-top bg-white">
         <a class="navbar-brand" href="#">My portfolio</a>
         <ul class="nav nav-pills">
           <li class="nav-item">
@@ -33,59 +33,72 @@
 
     <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
         
-        <div class="container" >
+        <div class="container text-center" >
             <h1 id="scrollspyHeading1">Hi I´m Andy</h1>
             <h2>Im a software developer</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, cumque. Dolorum porro eligendi incidunt modi 
+            <p class="m-10 p-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, cumque. Dolorum porro eligendi incidunt modi 
                 excepturi natus iste iusto, minus quam neque voluptatum, adipisci consequuntur facilis optio voluptas, 
                 maiores dolores?
             </p>
         </div>
 
-        <h4 id="scrollspyHeading2">Cards project</h4>
-        <div class="card" style="width: 18rem;">
-            <img src="Pics/ava.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h1>Ava web page</h1>
-              <p class="card-text">Desing web site for AVA veterinary.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h1 id="scrollspyHeading2" class="text-center">Cards project</h1>
+
+        <div class="row justify-content-center">
+            <div class="card m-1" style="width: 15rem;">
+                <img src="Pics/ava.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h1>Ava web page</h1>
+                  <p class="card-text">Desing web site for AVA veterinary.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card m-1" style="width: 15rem;">
+                <img src="Pics/ava.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h1>Ava web page</h1>
+                  <p class="card-text">Desing web site for AVA veterinary.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card m-1" style="width: 15rem;">
+                <img src="Pics/ava.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h1>Ava web page</h1>
+                  <p class="card-text">Desing web site for AVA veterinary.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
         </div>
 
-        <div class="card" style="width: 18rem;">
-            <img src="Pics/ava.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h1>Ava web page</h1>
-              <p class="card-text">Desing web site for AVA veterinary.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h1 id="scrollspyHeading3" class="text-center">My badges</h1>
+
+        <div class="p-1 text-center d-flex justify-content-center">
+            <div class="card m-1" style="width: 15rem;">
+                <img src="Pics/php.png" class="img-fluid" style="width: 15rem;">
+            
+                <div class="card-body">
+                  <h5 class="card-title">php</h5>
+                  <p class="card-text">I work with php for 5 years.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card m-1" style="width: 15rem;">
+                <img src="Pics/php.png" class="img-fluid" style="width: 15rem;">
+            
+                <div class="card-body">
+                  <h5 class="card-title">php</h5>
+                  <p class="card-text">I work with php for 5 years.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
         </div>
 
-        <div class="card" style="width: 18rem;">
-            <img src="Pics/ava.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h1>Ava web page</h1>
-              <p class="card-text">Desing web site for AVA veterinary.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
+        <h1 id="scrollspyHeading5" class="text-center">Contact me</h1>
 
-        <h4 id="scrollspyHeading3">About me</h4>
-        <div class="info">
-            <h4 id="scrollspyHeading3">My badges</h4>
-        </div>
-
-        <div class="card">
-            <img src="Pics/php.png" class="card-img-top" alt="Responsibe image">
-          
-            <div class="card-body">
-              <h5 class="card-title">php</h5>
-              <p class="card-text">I work with php for 5 years.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-
-        <h4 id="scrollspyHeading5">Contact me</h4>
         <form>
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Full Name</label>
