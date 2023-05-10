@@ -5,8 +5,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </head>
 <body>
+    <nav id="navbar-example2" class="navbar sticky-top bg-white">
+        <a class="navbar-brand" href="#">My portfolio</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading1">Say Hi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading2">Projects</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#scrollspyHeading3">About me</a></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading4">Badges</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading5">Contact Form</a></li>
+            </ul>
+          </li>
+        </ul>
+    </nav>
+
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        
+        <div class="container" >
+            <h1 id="scrollspyHeading1">Hi I´m Andy</h1>
+            <h2>Im a software developer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, cumque. Dolorum porro eligendi incidunt modi 
+                excepturi natus iste iusto, minus quam neque voluptatum, adipisci consequuntur facilis optio voluptas, 
+                maiores dolores?
+            </p>
+        </div>
+
+        <h4 id="scrollspyHeading2">Cards project</h4>
+        <div class="card" style="width: 18rem;">
+            <img src="Pics/ava.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h1>Ava web page</h1>
+              <p class="card-text">Desing web site for AVA veterinary.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="Pics/ava.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h1>Ava web page</h1>
+              <p class="card-text">Desing web site for AVA veterinary.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="Pics/ava.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h1>Ava web page</h1>
+              <p class="card-text">Desing web site for AVA veterinary.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+        <h4 id="scrollspyHeading3">About me</h4>
+        <div class="info">
+            <h4 id="scrollspyHeading3">My badges</h4>
+        </div>
+
+        <div class="card">
+            <img src="Pics/php.png" class="card-img-top" alt="Responsibe image">
+          
+            <div class="card-body">
+              <h5 class="card-title">php</h5>
+              <p class="card-text">I work with php for 5 years.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+        <h4 id="scrollspyHeading5">Contact me</h4>
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="FullName">
+              <div id="FullName" class="form-text">We'll never share your contact with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Phone</label>
+              <input type="text" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
     
 </body>
 </html>
